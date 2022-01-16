@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#fcf5f5,#eff4fd);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.center_div{
+    width: 30vw;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+    box-shadow: rgba(17,17,26,0.05) 0px 1px 0px,rgba(17,17,26,0.1)0px 0px 8px;
+    padding: 50px;
+}
+.myAccordion{
+    width: 100%;
+    background-color: rgb(240, 216, 216);
+    box-shadow: rgba(17,17,26,0.05) 0px 1px 0px,rgba(17,17,26,0.1)0px 0px 8px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+.para{
+    background-color: rgb(245, 233, 212);
+    margin-bottom: 20px;
+    padding: 10px 10px;
 }
